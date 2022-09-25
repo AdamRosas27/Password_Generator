@@ -1,0 +1,1 @@
+Password generator in python that will take in a number to determine how many characters will be in the password. Password will be returned as a combination of upper cased, lower cased, numbers, and symbols.
