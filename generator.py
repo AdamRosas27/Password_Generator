@@ -1,9 +1,14 @@
-# Define custom exceptio
+# Define custom exception
+import string
+import random
+
+
+class Error(Exception):
+    pass
+
 
 # Import random module
-import random
 # Import String module
-import string
 
 # Take an input from the user that will determine the length of the password
 len_of_password = int(input("Enter the length of your password"))
