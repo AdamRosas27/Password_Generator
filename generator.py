@@ -20,3 +20,5 @@ lower_case = string.ascii_lowercase
 upper_case = string.ascii_uppercase
 numbers = string.digits
 special_chars = string.punctuation
+
+combined = lower_case + upper_case + numbers + special_chars
