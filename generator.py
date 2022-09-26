@@ -23,3 +23,4 @@ special_chars = string.punctuation
 
 combined = lower_case + upper_case + numbers + special_chars
 temp_pw = random.sample(combined, password_len)
+password = "".join(temp_pw)
